@@ -16,7 +16,11 @@ function c(){
 
 function executeattime(){
     const currentEpochTime = new Date();
-    if (currentEpochTime.getTime() < TARGET_EPOCH_TIME) {
+    if (TARGET_EPOCH_TIME - currentEpochTime.getTime() > 60000 ) {
+        console.log("Current Epoch Time:" + currentEpochTime.toLocaleString());
+        setTimeout(executeattime, 25000);
+    }
+    else if (TARGET_EPOCH_TIME > currentEpochTime.getTime()) {
         console.log("Current Epoch Time:" + currentEpochTime.toLocaleString());
         setTimeout(executeattime, 200);
     } else {
