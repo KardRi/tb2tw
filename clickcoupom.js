@@ -1,4 +1,4 @@
-const tar = document.querySelector("#\\32 387440830 > div > div > div.rax-view-v2.tmg-marketing-coupon-content-right > div");
+const tar = document.querySelector("#\\36 614460970 > div > div > div.rax-view-v2.tmg-marketing-coupon-content-right > div");
 // const tar2 = document.querySelector("#\\34 272539560 > div > div > div.rax-view-v2.tmg-marketing-coupon-content-right > div");
 const a = new Date();
 const TARGET_EPOCH_TIME = new Date(a.getFullYear(), a.getMonth(), a.getDate() , 19,59,59,800).getTime();
