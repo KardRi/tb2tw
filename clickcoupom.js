@@ -1,4 +1,4 @@
-// https://world.taobao.com/wow/tmg-fc/act/tmw/channel/16922/17401/wupr?wh_pid=channelPage-510770
+// https://pages-fast.m.taobao.com/wow/a/act/haiwaifenzu/dailygroup/25359/26263/wupr?wh_pid=daily-582461
 const tar = document.querySelector("#\\32 387440830 > div > div > div.rax-view-v2.tmg-marketing-coupon-content-right > div");
 // const tar2 = document.querySelector("#\\32 387440830 > div > div > div.rax-view-v2.tmg-marketing-coupon-content-right > div");
 const a = new Date();
